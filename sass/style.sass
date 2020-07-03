@@ -1,0 +1,17 @@
+@mixin block()
+    width: 100px
+    height: 700px
+    background-color: blue
+    
+    
+h1 
+    color: blue
+
+.block
+    @include block
+    &_button 
+        width: 50px
+        height: 50px
+    &_text
+        color: white
+        font-size: 50px
